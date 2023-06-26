@@ -15,7 +15,7 @@ body {
     max-width: 80vw;
     min-height: 50vh;
     margin-inline: auto; /* horizontally centered */
-
+    display: flex;
 }
 
 .box {
