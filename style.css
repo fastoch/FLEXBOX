@@ -14,14 +14,19 @@ body {
     border: 1px solid black;
     max-width: 80vw;
     min-height: 50vh;
-    margin-inline: auto; /* horizontally centered */
+    margin-inline: auto; /* centers the container horizontally */
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;  /* centers the boxes vertically */
 }
 
 .box {
     min-width: 10vw;
-    min-height: 10vh;
+    height: 20vh;
     background-color: black;
     color: white;
     font-size: 2rem;
+    display: flex;
+    justify-content: center; /* centers content horizontally */
+    align-items: center; /* centers content vertically */
 }
